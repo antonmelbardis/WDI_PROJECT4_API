@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  seminar_name: MyText
+  location_address: MyText
+  description: MyText
+  date: MyString
+  country_id: 1
+  user_id: 1
+  teaching_module_id: 1
+
+two:
+  seminar_name: MyText
+  location_address: MyText
+  description: MyText
+  date: MyString
+  country_id: 1
+  user_id: 1
+  teaching_module_id: 1
