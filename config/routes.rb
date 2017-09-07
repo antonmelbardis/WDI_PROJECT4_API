@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :attendances
   scope :api do
     resources :users
     resources :teaching_modules

@@ -19,11 +19,11 @@ c4 = Country.create(country_name: "Spain")
 c5 = Country.create(country_name: "Germany")
 c6 = Country.create(country_name: "Israel")
 
-u1 = User.create(name: "Anton", surname: "Melbardis", email: "melbardis@gmail.com", password: "password", password_confirmation: "password", phone_number: "26680798", bio: "test bio content", photo: "http://fillmurray.com/300/300/", country_id: c1.id, username: "mant")
+u1 = User.create(name: "Anton", surname: "Melbardis", email: "melbardis@gmail.com", password: "password", password_confirmation: "password", phone_number: "26680798", bio: "test bio content", photo: "https://i.imgur.com/jZ4sXuk.png", country_id: c1.id, username: "mant")
 
-u2 = User.create(name: "Irena", surname: "Terauda", email: "itom@gmail.com", password: "password", password_confirmation: "password", phone_number: "26539782", bio: "mamas bio content", photo: "http://fillmurray.com/300/300/", country_id: c3.id, username: "irena")
+u2 = User.create(name: "Irena", surname: "Terauda", email: "itom@gmail.com", password: "password", password_confirmation: "password", phone_number: "26539782", bio: "mamas bio content", photo: "https://i.imgur.com/64Y6Otl.png", country_id: c3.id, username: "irena")
 
-u3 = User.create(name: "Erik", surname: "Melbardis", email: "erikmelbardis@gmail.com", password: "password", password_confirmation: "password", phone_number: "26539744", bio: "eriks bio content", photo: "http://fillmurray.com/300/300/", country_id: c1.id, username: "erik")
+u3 = User.create(name: "Erik", surname: "Melbardis", email: "erikmelbardis@gmail.com", password: "password", password_confirmation: "password", phone_number: "26539744", bio: "eriks bio content", photo: "https://i.imgur.com/MRin4YZ.png", country_id: c1.id, username: "erik")
 
 
 tm1 = TeachingModule.create(teaching_module_title: "ФП1 первый модуль", teaching_module_description: "лицо, шея, плечевой пояс")
